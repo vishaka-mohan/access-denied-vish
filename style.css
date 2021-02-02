@@ -1271,7 +1271,7 @@ section .intro .project-title{
 .classy-nav-container .classy-navbar .classynav ul li a {
   font-size: 16px;
   text-transform: uppercase;
-  color: #ffffff !important;
+  color: #ffffff;
   font-weight: 500;
   padding: 0 20px;
 }
@@ -1289,7 +1289,7 @@ section .intro .project-title{
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
     font-size: 14px;
-    color: #ffffff ;
+    color: #111343 ;
   }
 
   .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
