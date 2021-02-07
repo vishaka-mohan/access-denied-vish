@@ -2568,12 +2568,12 @@ Please email iete@vit.ac.in if you have any questions! We'd love to hear from yo
 
   <script>
     function get() {
-  const logo = document.querySelectorAll("#logo path");
-  console.log(logo);
-  for(let i=0;i<logo.length;i++){
-      console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
+      const logo = document.getElementById('logo').querySelectorAll('path');
+      console.log(logo);
+      for(let i=0;i<logo.length;i++){
+          console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
+      }
   }
-}
 
   </script>
     <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
