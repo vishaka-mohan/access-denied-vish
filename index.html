@@ -20,17 +20,69 @@
 }
   </style>
 </head>
-<body>
+<body onload="get()">
 
-  <!-- Preloader -->
-  <div id="preloader">
-    <div class="double-bounce1"></div>
-    <div class="double-bounce2"></div>
-  </div>
-  <!-- /Preloader -->
+  
 
-  <div id="progressbar"></div>
-  <div id="scrollpath"></div>
+  <div>
+        <img id="logoImage" src="https://ietevit.com/accessdenied/img/accessLogo.png">
+    </div>
+    <div> 
+<svg id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 223.15 20.07">
+    <defs>
+        <style>
+            .cls-1,
+            .cls-2 {
+                fill: none;
+                stroke-miterlimit: 10;
+                stroke-width: 0.75px;
+            }
+
+            .cls-1 {
+                stroke: #fff;
+            }
+
+            .cls-2 {
+                stroke: #ed2024;
+            }
+        </style>
+    </defs>
+    <path class="cls-1" d="M163,334h-7.9l-1.46,4h-2.49l6.55-18h2.73L167,338h-2.5Zm-3.95-11.08L155.78,332h6.55Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-1"
+        d="M178,319.64a8.53,8.53,0,0,1,8.4,5.49h-2.84a5.68,5.68,0,0,0-5.56-3.41c-3.8,0-6.63,2.76-6.63,7.2s2.83,7.18,6.63,7.18a5.7,5.7,0,0,0,5.56-3.38h2.84a8.52,8.52,0,0,1-8.4,5.43,9.26,9.26,0,0,1,0-18.51Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-1"
+        d="M198.05,319.64a8.53,8.53,0,0,1,8.4,5.49h-2.83a5.71,5.71,0,0,0-5.57-3.41c-3.79,0-6.63,2.76-6.63,7.2s2.84,7.18,6.63,7.18a5.73,5.73,0,0,0,5.57-3.38h2.83a8.52,8.52,0,0,1-8.4,5.43,9.26,9.26,0,0,1,0-18.51Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-1" d="M219.71,321.8h-7.38v6.06h6.6v1.95h-6.6v6.24h7.38V338H210V319.85h9.75Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-1"
+        d="M229,338.18c-3.64,0-6.21-2-6.26-5h2.52c.16,1.51,1.22,3,3.74,3,2.29,0,3.64-1.3,3.64-3,0-4.89-9.8-1.77-9.8-8.5,0-3,2.42-5,6-5s5.72,1.9,6,4.66h-2.6a3.27,3.27,0,0,0-3.51-2.63c-1.95-.05-3.48,1-3.48,2.91,0,4.68,9.78,1.77,9.78,8.48C235.08,335.63,233,338.18,229,338.18Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-1"
+        d="M244.31,338.18c-3.64,0-6.22-2-6.27-5h2.52c.16,1.51,1.22,3,3.75,3,2.28,0,3.64-1.3,3.64-3,0-4.89-9.81-1.77-9.81-8.5,0-3,2.42-5,6-5s5.72,1.9,6,4.66h-2.6a3.28,3.28,0,0,0-3.51-2.63c-2-.05-3.49,1-3.49,2.91,0,4.68,9.78,1.77,9.78,8.48C250.34,335.63,248.23,338.18,244.31,338.18Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-2"
+        d="M276,329c0,5.61-3.67,9-9.62,9h-5.65V319.88h5.65C272.36,319.88,276,323.36,276,329Zm-9.62,7.07c4.73,0,7.2-2.65,7.2-7.07s-2.47-7.18-7.2-7.18h-3.28v14.25Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-2" d="M288.9,321.8h-7.39v6.06h6.61v1.95h-6.61v6.24h7.39V338h-9.76V319.85h9.76Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-2" d="M306.73,319.85V338h-2.37l-9.51-14.43V338h-2.37V319.85h2.37l9.51,14.4v-14.4Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-2" d="M310.76,319.88h2.37V338h-2.37Z" transform="translate(-150.61 -318.49)" />
+    <path class="cls-2" d="M326.91,321.8h-7.39v6.06h6.61v1.95h-6.61v6.24h7.39V338h-9.76V319.85h9.76Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-2"
+        d="M345.76,329c0,5.61-3.67,9-9.62,9h-5.65V319.88h5.65C342.09,319.88,345.76,323.36,345.76,329Zm-9.62,7.07c4.73,0,7.2-2.65,7.2-7.07s-2.47-7.18-7.2-7.18h-3.28v14.25Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-2" d="M347.7,325.78l1.54-5.9h2.62l-2.49,5.9Z" transform="translate(-150.61 -318.49)" />
+    <path class="cls-2"
+        d="M353.89,336.1c4.94-4,9.62-7.72,9.62-11.57,0-2.08-.91-3.64-3.46-3.64s-3.69,1.69-3.79,4.06H354c.16-4,2.68-6.09,6.06-6.09,3.53,0,5.82,2.08,5.82,5.56,0,4.69-5,8.66-8.4,11.39h8.95v2H353.89Z"
+        transform="translate(-150.61 -318.49)" />
+    <path class="cls-2" d="M371,321.36h-2.5V319.2h4.89V338H371Z" transform="translate(-150.61 -318.49)" />
+</svg>
+    </div>
 
 
 
@@ -68,7 +120,7 @@
                 
               </ul>
               <!-- Get Tickets Button -->
-            <a class="btn confer-btn mt-3 mt-lg-0 ml-lg-5" href="https://accessdenied.devfolio.co/"  class="btn confer-btn" style="color: white; font-size: 12px"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:4px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</a>
+              <a href="https://ieteisfvit.typeform.com/to/bDwnV7Ju"  class="btn confer-btn" style="font-size: 12px;">Be a campus ambassador</a>
             <!-- Nav End -->
           </div>
         </nav>
@@ -76,7 +128,20 @@
     </div>
   </header>
 
- 
+  <!-- register modal -->
+  <!-- Modal -->
+  <div class=" modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalTitle" aria-hidden="true">
+    <div class=" modal-dialog modal-dialog-centered" role="document">
+      <div class="registerModal modal-content">
+       
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSddc_zq1TTW9EH59n2ft-DjEhirKg4eItU-xOgp2O8OYgZ26Q/viewform?embedded=true"
+          width="640" height="1570" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        
+      </div>
+    </div>
+  </div>
+<!-- Modal -->
 
 
 
@@ -100,16 +165,15 @@
                 <div class="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
                
                   <br>
+                  <div class="apply-button" data-hackathon-slug="accessdenied" data-button-theme="dark"style="height: 44px; width: 312px"></div>
+                  <br>
+                  <br>
                   <a class="btn confer-btn mt-3 mt-lg-0 " href="http://bit.ly/JoinAccessDeniedDiscord"  class="btn confer-btn" style="color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
                     <path d="M6.552 6.712c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z"/>
                     <path d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z"/>
                   </svg>  Join Discord</a>
-                  <a class="btn confer-btn mt-3 mt-lg-0 " href="https://accessdenied.devfolio.co/"  class="btn confer-btn" style="color: white;"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:4px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</a>
                   
-                 
 
-                  <br>
-                  <a href="https://ieteisfvit.typeform.com/to/bDwnV7Ju"  class="btn confer-btn">Be a campus ambassador</a>
                   
                 </div>
                 
@@ -1232,9 +1296,8 @@
               <img class="shp" src="./img/spk/anuj.jpg" alt="John" style="width:100%">
           <div class="container">
             <h2 style="text-align: center;">Anuj Garg</h2>
-            
-            <p style="text-align: center;">He is an open-source enthusiast. He is part of the JBoss Community for 5 years wearing different hats like GSoC and GCI admin etc to engage more and more college students into the JBoss ecosystem and Open source community.</p><br><br><br>
-            <p><button class="button" onclick="window.location.href='https://www.linkedin.com/in/keenwarrior/' " >LinkedIn<a target="_blank" href="https://linkedIn.com/in/briangolod"></a> </button></p>
+            <p style="text-align: center;">He is an open-source enthusiast. He is part of the JBoss Community for 5 years wearing different hats like GSoC and GCI admin etc to engage more and more college students into the JBoss ecosystem and Open Source Community.</p><br><br>
+            <p><button class="button" onclick="window.location.href='https://www.linkedin.com/in/keenwarrior/' " >LinkedIn<a target="_blank" href="https://linkedIn.com/in/keenwarrior"></a> </button></p>
           </div>
             </div>
             <!-- Single client Icon -->
@@ -1406,12 +1469,53 @@
 
   <!-- prizes -->
   
-  <div  class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms" id="prizes">
+    <section  class="our-schedule-area section-padding-1000">
+  <div class="container">
+    <div class="row">
+      <!-- Heading -->
+      <div class="col-12">
+        <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
          
-    <h4 >Prizes</h4>
-    <p >Coming soon!</p>
+          <h4>Prizes</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="schedule-tab">
+          <!-- Nav Tabs -->
+          <ul class="nav nav-tabs wow fadeInUp" data-wow-delay="300ms" id="conferScheduleTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="main-tab" data-toggle="tab" href="" role="tab"
+                aria-controls="step-one" aria-expanded="true">Main prizes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " id="track-tab" data-toggle="tab" href="" role="tab"
+                aria-controls="step-four" aria-expanded="true">Track prizes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " id="other-tab" data-toggle="tab" href="" role="tab"
+                aria-controls="step-two" aria-expanded="true">Other prizes</a>
+            </li>
+           
+          </ul>
+        </div>
+
+        <!-- Tab Content -->
+        
+
+          
+
+
+         
+        </div>
+      </div>
+    </div>
   </div>
-  <br><br><br><br><br><br>
+</section>
+
+  
 <!--  
    <div data-anchor="page6" class="pp-scrollable section section-6">
     <div class="scroll-wrap">
@@ -1525,7 +1629,7 @@
   -->
   <!-- prizes end -->
 
-  <!-- Our Sponsor And Client Area Start -->
+  <!--
   <section class="our-sponsor-client-area section-padding-100" >
     <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms" id="sponsors">
      
@@ -1534,9 +1638,9 @@
     </div>
     <h4 onclick="sponsorShow()" style="color: white;text-align:center; cursor:pointer">Previous Sponsors <i class="fa fa-arrow-down"></i> </h4>
     <div id="previous_sponsors" class="container">
-      <div class="row">
+      <div class="row"> -->
         <!-- Heading -->
-        <div class="col-12">
+   <!--     <div class="col-12">
           <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
             <p> Partners &amp; Sponsors</p>
             <h4>TITLE SPONSOR</h4>
@@ -1544,8 +1648,8 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <!-- Heading -->
+      <div class="row"> 
+        
         <div class="col-12">
           <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
             <h4>OFFICIAL SPONSOR</h4>
@@ -1555,37 +1659,37 @@
 
       <div class="row">
         <div class="col-12">
-          <!-- Our Sponsor area -->
+          
           <div class="our-sponsor-area d-flex flex-wrap">
-            <!-- Single Sponsor -->
+           
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/balsamiq.png" alt="balsamiq-image"></a>
             </div>
-            <!-- Single Sponsor -->
+            
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/bugsee.png" alt=""></a>
             </div>
-            <!-- Single Sponsor -->
+             Single Sponsor 
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/digitalocean.png" alt=""></a>
             </div>
-            <!-- Single Sponsor -->
+            
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/docker.png" alt=""></a>
             </div>
-            <!-- Single Sponsor -->
+            
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/drunkenmonkey.png" alt=""></a>
             </div>
-            <!-- Single Sponsor -->
+            
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/estimote.png" alt=""></a>
             </div>
-            <!-- Single Sponsor -->
+           
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/foxmula.png" alt=""></a>
             </div>
-            <!-- Single Sponsor -->
+            
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/github.png" alt=""></a>
             </div>
@@ -1626,9 +1730,8 @@
        
       </div>
 
-      <!-- ==================== -->
-      <div class="row">
-        <!-- Heading -->
+      
+      <div class="row"> Heading 
         <div class="col-12">
           <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
             <h4 class="partner">OUR PARTNERS</h4>
@@ -1638,17 +1741,17 @@
 
       <div class="row">
         <div class="col-12">
-          <!-- Our Sponsor area -->
+           
           <div class="our-sponsor-area d-flex flex-wrap ">
-            <!-- Single Sponsor -->
+            
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/eride.jpeg" alt="balsamiq-image"></a>
             </div>
-            <!-- Single Sponsor -->
+            
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/tpc.png" alt=""></a>
             </div>
-            <!-- Single Sponsor -->
+            
             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
               <a href="#"><img src="./img/sponsors/tfac.png" alt=""></a>
             </div>
@@ -1666,6 +1769,223 @@
       <div class="more-schedule-btn text-center mt-50 wow fadeInUp" data-wow-delay="300ms">
         <a style="margin:0 !important" download="Sponsorship Brochure.pdf" href="Sponsorship Brochure.pdf"
           class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">SPONSOR US</a>
+      </div>
+    </div>
+  </section>
+  Our Sponsor And Client Area End -->
+    
+
+
+  <!-- Our Sponsor And Client Area Start -->
+  <section class="our-sponsor-client-area section-padding-100" >
+    <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms" id="sponsors">
+     
+      <h4 style="font-size: 200% !important; text-align: center;">Partners &amp; Sponsors</h4>
+      
+    </div>
+   
+    <div id="previous_sponsors" class="container">
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+            <br><br><h4 style="color:#df42b1;">TITLE SPONSOR</h4><br><br>
+            <a href="https://accessdenied.devfolio.co/"><img  style="width: 70%;background-color: white;" src="data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyODAgNjYuMTgiPjxnIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBmaWxsPSIjMzc3MGZmIiBkPSJNNjAuMzMgMzYuNDRDNjAuMyA1MiA0OC42MSA2NC43NCAzMy43NiA2NmMwIDAtMTkuMDcuNDktMjUuMzktLjA3YTYuNTkgNi41OSAwIDAgMS01LjI4LTQgOC4wNyA4LjA3IDAgMCAwIDIuOC43OGMyLjA3LjE4IDUuNi4yNyAxMC41Mi4yNyA3LjIzIDAgMTUuMDctLjIgMTUuMTUtLjJoLjE0YTMxIDMxIDAgMCAwIDIwLjQ0LTEwLjIgMzIuNDYgMzIuNDYgMCAwIDAgOC4xNS0xNy45M2MuMDMuNTcuMDQgMS4xOC4wNCAxLjc5eiIvPjxwYXRoIGZpbGw9IiMzNzcwZmYiIGQ9Ik01OCAyOS45NWMwIDE1LjU2LTExLjcyIDI4LjI5LTI2LjU3IDI5LjUzIDAgMC0xOS4wNy41LTI1LjM5LS4wNi0zLjM5LS4zLTUuOTMtMy41NS02LTcuMTRMLjEgNy4zM0MuMiAzLjc0IDIuNzUuNSA2LjE1LjIyYzYuMzMtLjUzIDI1LjM5LjA2IDI1LjM5LjA2QzQ2LjM4IDEuNiA1OCAxNC4zOSA1OCAyOS45NXoiLz48cGF0aCBmaWxsPSIjMjczMzM5IiBkPSJNNzcuMTYgMTguNDFhLjgzLjgzIDAgMCAxIC44Mi0uODJoMTMuM2MuNDUgMCAxLjE5IDAgMS42NC4wOCAwIDAgNi4wNy42MiA4LjkgMmExNS43NCAxNS43NCAwIDAgMSA2LjU5IDYgMTcgMTcgMCAwIDEgMi4zNCA5IDE3IDE3IDAgMCAxLTIuMzQgOSAxNS43NCAxNS43NCAwIDAgMS02LjU5IDZjLTIuODMgMS40Mi04LjkgMi04LjkgMi0uNDUgMC0xLjE5LjA4LTEuNjQuMDhINzhhLjgzLjgzIDAgMCAxLS44Mi0uODJ6TTkxIDQ2LjRjLjQ1IDAgMS4xOSAwIDEuNjQtLjA4QTIyIDIyIDAgMCAwIDk4LjQzIDQ1YTEwLjI5IDEwLjI5IDAgMCAwIDQuNC00LjEgMTIuMTMgMTIuMTMgMCAwIDAgMS41NC02LjE4IDEyLjEzIDEyLjEzIDAgMCAwLTEuNTQtNi4xOCAxMC4zIDEwLjMgMCAwIDAtNC40LTQuMSAyMi4xMiAyMi4xMiAwIDAgMC01LjgtMS40NGgtOC4zYS44My44MyAwIDAgMC0uODIuODJ2MjEuOGEuODMuODMgMCAwIDAgLjgyLjgyem01MC4zOS02LjU0YS45LjkgMCAwIDEtLjg4LjgySDEyMS43YS41My41MyAwIDAgMC0uNTMuNzcgMTAgMTAgMCAwIDAgMi41MiAzLjc5IDkuMjEgOS4yMSAwIDAgMCA1LjY0IDEuNjljMi44NyAwIDYuNC0yLjM3IDYuNC0yLjM3YTEgMSAwIDAgMSAxLjIyLjE2bDIuMTkgMi41MmEuODYuODYgMCAwIDEtLjA2IDEuMTggMTUuNzUgMTUuNzUgMCAwIDEtMy44NSAyLjU4IDE3LjYxIDE3LjYxIDAgMCAxLTEzLjYzLS42NCAxMi4zIDEyLjMgMCAwIDEtNS4wNS00Ljc2IDEzLjQ1IDEzLjQ1IDAgMCAxLTEuNzgtNi45MSAxMy42NCAxMy42NCAwIDAgMSAxLjczLTYuODYgMTIuMzIgMTIuMzIgMCAwIDEgNC44MS00Ljc2IDE0LjA1IDE0LjA1IDAgMCAxIDYuOTQtMS43MSAxMy42OCAxMy42OCAwIDAgMSA2LjgxIDEuNjkgMTEuOTMgMTEuOTMgMCAwIDEgNC42OSA0Ljc0IDE0LjM3IDE0LjM3IDAgMCAxIDEuNjggNy4wNmMwIC40NS0uMDQgMS4wMS0uMDQgMS4wMXpNMTIzLjI5IDMyYTEwLjI4IDEwLjI4IDAgMCAwLTIuMjEgMy44My41Ny41NyAwIDAgMCAuNTcuNzhoMTMuMTVhLjU3LjU3IDAgMCAwIC41OC0uNzkgMTAuMTEgMTAuMTEgMCAwIDAtMi4xNS0zLjggNy4yNyA3LjI3IDAgMCAwLTUtMS43NiA3LjM2IDcuMzYgMCAwIDAtNC45NCAxLjc0em00Ny4xMS02LjMxYS41LjUgMCAwIDEgLjUuNzZMMTYwLjM3IDUxYTEuMzYgMS4zNiAwIDAgMS0xLjE1Ljc2aC00LjY1YTEuMzYgMS4zNiAwIDAgMS0xLjE1LS43NmwtMTAuNTQtMjQuNTVhLjUuNSAwIDAgMSAuNS0uNzZoNC43YTEuMzQgMS4zNCAwIDAgMSAxLjE0Ljc2bDcuNDcgMTcuODJjLjE4LjQyLjQ3LjQyLjY1IDBMMTY1IDI2LjQ1YTEuMzYgMS4zNiAwIDAgMSAxLjE1LS43NnptMTMuNi0yLjE2YTYuNDYgNi40NiAwIDAgMC0uMjQgMS41Ny44MS44MSAwIDAgMCAuODIuNzhoNS41M2EuODMuODMgMCAwIDEgLjgyLjgydjMuMjRhLjgzLjgzIDAgMCAxLS44Mi44MmgtNS4zNGEuODMuODMgMCAwIDAtLjgyLjgydjE5LjM3YS44My44MyAwIDAgMS0uODIuODJoLTQuNDZhLjgzLjgzIDAgMCAxLS44Mi0uODJWMzEuNTlhLjgzLjgzIDAgMCAwLS44Mi0uODJoLTIuNjVhLjgzLjgzIDAgMCAxLS44Mi0uODJ2LTMuMjRhLjgzLjgzIDAgMCAxIC44Mi0uODJIMTc3YS44My44MyAwIDAgMCAuODItLjgyIDEyLjMzIDEyLjMzIDAgMCAxIC4xMy0xLjY0cy42OC00LjE5IDIuMzEtNS44YTkuMzcgOS4zNyAwIDAgMSA2Ljg5LTIuNDIgMTMuNjEgMTMuNjEgMCAwIDEgNC43NyAxLjA4Ljg5Ljg5IDAgMCAxIC40NyAxLjExbC0xLjEzIDNhLjczLjczIDAgMCAxLTEgLjQxIDcuMTcgNy4xNyAwIDAgMC0yLjYzLS43MWMtMi42My4wMi0zLjYzIDMuNDMtMy42MyAzLjQzem0xNS4yMiAyNi44N2ExMi40NSAxMi40NSAwIDAgMS01LTQuNzYgMTMuNDUgMTMuNDUgMCAwIDEtMS43OC02LjkxIDEzLjMxIDEzLjMxIDAgMCAxIDEuNzgtNi44OSAxMi41MSAxMi41MSAwIDAgMSA1LTQuNzQgMTUuODIgMTUuODIgMCAwIDEgMTQuMzEgMCAxMi41MyAxMi41MyAwIDAgMSA1IDQuNzQgMTMuMzEgMTMuMzEgMCAwIDEgMS43OCA2Ljg5IDEzLjQ1IDEzLjQ1IDAgMCAxLTEuNzggNi45MSAxMi40NyAxMi40NyAwIDAgMS01IDQuNzYgMTUuODIgMTUuODIgMCAwIDEtMTQuMzEgMHptMTIuNy01Ljc2YTguMDggOC4wOCAwIDAgMCAyLjItNS45MSA4LjA5IDguMDkgMCAwIDAtMi4yLTUuOTEgNy40NiA3LjQ2IDAgMCAwLTUuNTctMi4yNSA3LjM4IDcuMzggMCAwIDAtNS41NCAyLjI1IDguMTQgOC4xNCAwIDAgMC0yLjE3IDUuOTEgOC4xMyA4LjEzIDAgMCAwIDIuMTcgNS45MSA3LjM3IDcuMzcgMCAwIDAgNS41NCAyLjI1IDcuNDYgNy40NiAwIDAgMCA1LjU2LTIuMjV6bTI4LjYyLTI0LjNhMy42IDMuNiAwIDAgMSAwLTUuMjMgMy45MiAzLjkyIDAgMCAxIDIuNzgtMSA0IDQgMCAwIDEgMi43OSAxIDMuMjMgMy4yMyAwIDAgMSAxLjEyIDIuNTIgMy42OCAzLjY4IDAgMCAxLTEuMSAyLjcxIDMuOCAzLjggMCAwIDEtMi44MSAxLjEgMy45MiAzLjkyIDAgMCAxLTIuNzgtMS4xem0tLjI5IDYuMTdhLjgzLjgzIDAgMCAxIC44Mi0uODJoNC40NmEuODMuODMgMCAwIDEgLjgyLjgydjI0LjQ0YS44My44MyAwIDAgMS0uODIuODJoLTQuNDZhLjgzLjgzIDAgMCAxLS44Mi0uODJ6bTE4LjcgMjMuODlhMTIuNDUgMTIuNDUgMCAwIDEtNS00Ljc2IDEzLjQ1IDEzLjQ1IDAgMCAxLTEuNzgtNi45MSAxMy4zMSAxMy4zMSAwIDAgMSAxLjgzLTYuODkgMTIuNTEgMTIuNTEgMCAwIDEgNS00Ljc0IDE1LjgyIDE1LjgyIDAgMCAxIDE0LjMxIDAgMTIuNTMgMTIuNTMgMCAwIDEgNSA0Ljc0IDEzLjMxIDEzLjMxIDAgMCAxIDEuNjkgNi44OSAxMy40NSAxMy40NSAwIDAgMS0xLjc4IDYuOTEgMTIuNDcgMTIuNDcgMCAwIDEtNSA0Ljc2IDE1LjgyIDE1LjgyIDAgMCAxLTE0LjMxIDB6bTEyLjctNS43NmE4LjA4IDguMDggMCAwIDAgMi4yLTUuOTEgOC4wOSA4LjA5IDAgMCAwLTIuMi01LjkxIDcuNDYgNy40NiAwIDAgMC01LjU3LTIuMjUgNy4zOCA3LjM4IDAgMCAwLTUuNTQgMi4yNSA4LjE0IDguMTQgMCAwIDAtMi4xNyA1LjkxIDguMTMgOC4xMyAwIDAgMCAyLjE3IDUuOTEgNy4zNyA3LjM3IDAgMCAwIDUuNTQgMi4yNSA3LjQ2IDcuNDYgMCAwIDAgNS41Ny0yLjI1em0tNDUuNTItMjguMjlhLjgzLjgzIDAgMCAxIC44Mi0uODJoNC40NmEuODMuODMgMCAwIDEgLjgyLjgydjM0LjZhLjgzLjgzIDAgMCAxLS44Mi44MkgyMjdhLjgzLjgzIDAgMCAxLS44Mi0uODJ6Ii8+PC9nPjwvZz48L3N2Zz4=" alt="fortinet-image"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+            <h4 style="color:#df42b1;">Powered By</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <!-- Our Sponsor area -->
+          <div class="our-sponsor-area d-flex flex-wrap">
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://matic.network/"><img src="data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNzYiIGhlaWdodD0iNjciPjxnIGZpbGw9Im5vbmUiPjxwYXRoIGZpbGw9IiMxMDBDNDgiIGQ9Ik0xNzkuMzczIDQ5LjE4MmMyLjk1IDAgNS40MzUtMS4wMDIgNy4zOTctMi45NjUgMS45NjItMi4wNiAyLjk1MS00LjU3IDIuOTUxLTcuNjEyIDAtMy4wNC0uOTktNS41NTMtMi45NTEtNy41MzUtMS45NjItMi4wMzgtNC40NDYtMy4wNC03LjM5Ny0zLjA0LTIuOTM1IDAtNS40MTcgMS03LjM3OSAzLjA0LTEuOTYyIDEuOTgyLTIuOTMyIDQuNDk1LTIuOTMyIDcuNTM1cy45NyA1LjU1MiAyLjkzIDcuNjEyYzEuOTY0IDEuOTYzIDQuNDQ2IDIuOTY1IDcuMzggMi45NjV6bTEwLjM0OC0yNy4xaDcuMDZ2MzMuMDVoLTcuMDZWNTAuMzdjLTIuNjkgMy43OC02LjQ4MiA1LjYzLTExLjQ1IDUuNjMtNC41MDIgMC04LjMxMy0xLjY2My0xMS41MDktNS4wMjUtMy4xOTMtMy4zNzktNC43NjItNy41NTItNC43NjItMTIuMzcgMC00Ljg5MiAxLjU3LTguOTg3IDQuNzY1LTEyLjM2OSAzLjE5My0zLjM2MiA3LjAwNC01LjAyNCAxMS41MDYtNS4wMjQgNC45NjggMCA4Ljc2IDEuODUxIDExLjQ1IDUuNTUydi00LjY4MXptMzQuNDI1IDYuODczaC04LjEwN1Y0NC44MmMwIDQuMjMgMi43NDggNC4xNTQgOC4xMDcgMy44OXY2LjQyMWMtMTAuNzk3IDEuMzIyLTE1LjE2Ny0xLjY2My0xNS4xNjctMTAuMzFWMjguOTU0aC02LjAxNVYyMi4wOGg2LjAxNWwtLjAxMi05LjI1Nmg3LjA3MnY5LjI1Nmg4LjEwN3Y2Ljg3NHptNi40NjMgMjYuMTc2aDcuMDYydi0zMy4wNWgtNy4wNnYzMy4wNWgtLjAwMnptLjMxOC0zOS4zMmMtMS43NzUtMS44NS0xLjc3NS00LjY0NiAwLTYuNDIzQTQuMzk5IDQuMzk5IDAgMCAxIDIzNC4xMyA4YTQuNCA0LjQgMCAwIDEgMy4yMDMgMS4zODhjMS43NTYgMS43NzcgMS43NTYgNC41Ny0uMDc0IDYuNDI0LTEuNzU0IDEuNzc0LTQuNTAxIDEuNzc0LTYuMzMyIDB6bTE4LjAwNiAzNS4xNjRjLTMuMjY4LTMuMzgtNC45MTEtNy40NzktNC45MTEtMTIuMzcgMC00Ljk2NSAxLjY0My05LjA0NSA0LjkxMy0xMi4zNjkgMy4zNDQtMy4zNjIgNy40NTItNS4wMjQgMTIuMzQ3LTUuMDI0IDYuMzUgMCAxMS45NzUgMy4zMjUgMTQuNTg2IDguNTM5bC02LjA2OCAzLjU2N2MtMS41MTQtMy4xNzUtNC42NS01LjA4LTguNTc0LTUuMDgtMi44NzcgMC01LjI4Ny45OC03LjI2OCAyLjk2NS0xLjg4NSAxLjk4Mi0yLjg3NCA0LjQzOS0yLjg3NCA3LjQwMiAwIDIuOTY1Ljk4OSA1LjQyMSAyLjg3NCA3LjQwNCAxLjk4MSAxLjk4NCA0LjM5MSAyLjk2NSA3LjI2OCAyLjk2NSAzLjg2NyAwIDcuMTE1LTEuOTYzIDguNjg0LTUuMDhsNi4wOSAzLjQ5NEMyNzMuMiA1Mi42NzUgMjY3LjYzNCA1NiAyNjEuMjgyIDU2Yy00Ljg5NSAwLTkuMDAzLTEuNjYzLTEyLjM0Ny01LjAyNWgtLjAwMnoiLz48cGF0aCBmaWxsPSIjMkJCREY3IiBkPSJNMzIgMjguMzM2TDQxLjY0IDQ5bDE0LjM1LTcuOTk0TDU2IDQxVjI1eiIvPjxwYXRoIGZpbGw9IiMyODkxRjkiIGQ9Ik03NC4wMjggMTIuMDk2bC04LjcxNS0zLjMzMkw1NiA4djUwLjgyNUw2OS45NzIgNjcgODEgNDQuMDg3bC02Ljk1Ni0yMi4xNTZ6Ii8+PHBhdGggZmlsbD0iIzJCQkRGNyIgZD0iTTczLjI0NiA4bC0zLjI0MiA4LjE3NEg3MFY2N2wxNC04LjE3NFY4eiIvPjxwYXRoIGZpbGw9IiMyQjZERUYiIGQ9Ik03MCAwTDU2IDguMDAxIDcwIDE2bDE0LTcuOTk5eiIvPjxwYXRoIGZpbGw9IiMyODkxRjkiIGQ9Ik00MS45OTggMzIuNTMydi0uMDA0TDI3Ljk5OSAxNi42NTQgMCA4djUwLjgyMkwxMy45OTYgNjdsNC0yOC4xMjVMMjggNDAuNzE2di0uMDA4bDE0IDguMTc2VjMyLjUzMnoiLz48cGF0aCBmaWxsPSIjMTAwQzQ4IiBkPSJNMTQ3Ljg2MiAxM2wtMTMuODk0IDIyLjk2OEwxMjAuMTMgMTNIMTEydjQyaDcuNTQ4VjI2LjEyM2wxMi40OTYgMjAuNzUzaDMuODRsMTIuNTA0LTIwLjY4djI4LjgwMkgxNTZWMTN6Ii8+PHBhdGggZmlsbD0iIzJCNkRFRiIgZD0iTTE0LjAwNyAwTDAgOC4yNDggNDIgMzNsNi4zNDYtMy43MzhMNTYgMjQuNzV6Ii8+PHBhdGggZmlsbD0iIzJCQkRGNyIgZD0iTTE0LjAwMiAzM0gxNHYzNGwxNC04LjA2NVY0MS4wNjd6Ii8+PC9nPjwvc3ZnPg==" alt="balsamiq-image" style="background-color: white;"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.portis.io/"><img src="./img/sponsors/portis.png" alt="portis"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://tezos.com/"><img src="data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iLjUiIHgyPSIuNSIgeTI9IjEiIGdyYWRpZW50VW5pdHM9Im9iamVjdEJvdW5kaW5nQm94Ij48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmI1MDgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmYzJhMDIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTY0MjEgLTM5MjQpIj48Y2lyY2xlIGN4PSIyNTYiIGN5PSIyNTYiIHI9IjI1NiIgZmlsbD0idXJsKCNhKSIgZGF0YS1uYW1lPSJFbGxpcHNlIDIyLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2NDIxIDM5MjQpIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTM2ODAuMDk1LDM5OTkuNzg1Yy0yMC45LDAtMzYuMTQtNC44ODgtNDUuNzA4LTE0Ljk3NnMtMTQuMi0yMC42NDQtMTQuMi0zMi4yOTJhMTkuNTkxLDE5LjU5MSwwLDAsMSwyLjYtMTAuNjA4LDE2LjY2MSwxNi42NjEsMCwwLDEsNi43MDgtNi43MDgsMjIuMDYyLDIyLjA2MiwwLDAsMSwxMC42MDgtMi42YzQuMTYsMCw3Ljc0OC43OCwxMC42MDgsMi42YTE2LjY2MywxNi42NjMsMCwwLDEsNi43MDgsNi43MDgsMjIuMDY2LDIyLjA2NiwwLDAsMSwyLjYsMTAuNjA4YzAsNS4xNDgtMS4zLDkuMzA4LTMuNjQsMTIuMzc2YTE3LjcsMTcuNywwLDAsMS04Ljc4OCw2LjQ0OGMyLjg2LDMuODQ4LDcuNDg4LDYuNzA4LDEzLjY3Niw4LjUyOGE2NS40MjksNjUuNDI5LDAsMCwwLDE4LjYxNiwyLjYsNDEuMzU3LDQxLjM1NywwLDAsMCwyMy41LTYuOTY4YzYuOTY4LTQuNjI4LDEyLjExNi0xMS42LDE1LjUtMjAuNjQ0czQuODg4LTE5LjM0NCw0Ljg4OC0zMC45OTJjMC0xMi42MzYtMS44Mi0yMy4yNDQtNS40MDgtMzIuMDMyLTMuNjQtOS4wNDgtOC43ODgtMTUuNzU2LTE1Ljc1Ni0xOS44NjRhNDEuNjY5LDQxLjY2OSwwLDAsMC0yMi43MjQtNi40NDhjLTUuNDA4LDAtMTEuODU2LDIuMzQtMTkuODY0LDYuNzA4bC0xNC41Niw2Ljk2OHYtNy4yMjhsNjUuODMyLTg3Ljc3NmgtOTEuMXY5MS4xNTZjMCw3LjQ4OCwxLjU2LDEzLjY3Niw0Ljg4OCwxOC42MTYsMy4zOCw0Ljg4OCw4LjUyOCw3LjIyOCwxNS4yMzYsNy4yMjgsNS40MDgsMCwxMC4zNDgtMS44MiwxNS4yMzYtNS40MDhhNjAuNjE0LDYwLjYxNCwwLDAsMCwxMi42MzYtMTIuOSw0Ljc1OCw0Ljc1OCwwLDAsMSwxLjU2LTIuMDgsMy40NTcsMy40NTcsMCwwLDEsMi4wOC0uNzgsNy4zNTgsNy4zNTgsMCwwLDEsNC4zNjgsMS44Miw5LjE4Niw5LjE4NiwwLDAsMSwyLjM0LDYuMTg4YzAsMS4wNC0uNTIsMi42LS43OCw0LjYyOHEtNS40NiwxMi43OTItMTUuNSwxOS4zNDRhMzkuMzYzLDM5LjM2MywwLDAsMS0yMS45NDQsNi43MDhjLTE5Ljg2NCwwLTMzLjMzMi0zLjg0OC00MS4wOC0xMS42LTcuNDg4LTcuNzQ4LTExLjMzNi0xOC4zNTYtMTEuMzM2LTMxLjUxMnYtOTEuNDA5aC00Ni40ODR2LTE3LjA1Nmg0Ni43NDhWMzcyOC40bC0xMC42MDgtMTAuNjEyVjM3MDloMzAuOTkybDExLjYsNS45Mjh2NTEuOTQ4bDEyMC41ODgtLjI2LDExLjg1NiwxMS44NTYtNzMuNzg4LDc0LjE1MmE0OS43MjEsNDkuNzIxLDAsMCwxLDEzLjkzNi0zLjM4YzguMDA4LDAsMTcuMDU2LDIuNiwyNi44MzIsNy43NDhhNTQuNTg3LDU0LjU4NywwLDAsMSwyMy4yNDQsMjAuNjQ1YzUuNDA4LDguNzg4LDkuMDQ4LDE3LjA1NiwxMC42MDgsMjUuMDY0czIuNiwxNC45NzYsMi42LDIxLjQyNGE4OS4wODMsODkuMDgzLDAsMCwxLTkuMDQ4LDM5LjUyLDU3LjUsNTcuNSwwLDAsMS0yNy4zNiwyNy4zNTVBODguOSw4OC45LDAsMCwxLDM2ODAuMDk1LDM5OTkuNzg1WiIgZGF0YS1uYW1lPSJQYXRoIDM1NiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTMwMjguNTkgMzI2KSIvPjwvZz48L3N2Zz4=" alt=""></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.echoar.xyz/"><img src="./img/sponsors/echoar.png" alt=""></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.doorie.io/"><img src="./img/sponsors/doorie.jpeg" alt=""></a>
+            </div>
+            <!-- Single Sponsor -->
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+            <br><br><br><h4 style="color:#df42b1;">Associate Sponsor</h4><br><br>
+            <a href="http://www.craftgali.com/"><img  style="width: 30%;height: 30%;" src="./img/sponsors/craftgali.jpeg" alt="fortinet-image"></a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- ==================== -->
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+            <h4 class="partner" style="color:#df42b1;">Education Partners</h4><br><br>
+            <a href="https://www.geeksforgeeks.org/"><img src="./img/sponsors/gfg.png" alt="gfg-image" style="width: 35%;"></a>
+            <a href="https://tribe.so/"><img src="./img/sponsors/tribe1.png" alt="tribe" style="width: 35%;margin-left: 10px;"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+            <h4 class="partner" style="color:#df42b1;">Community Sponsors</h4>
+            
+            
+          </div>
+        </div>
+      </div>
+
+       <div class="row">
+        <div class="col-12">
+          <!-- Our Sponsor area -->
+          <div class="our-sponsor-area d-flex flex-wrap">
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://skillshipfoundation.com/"><img src="./img/sponsors/skillship.png"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://gosats.io/"><img src="./img/sponsors/gosats.png" alt="go sats"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://azure.microsoft.com/en-in/"><img src="./img/sponsors/azure.png" alt="azure"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://github.com/"><img src="./img/sponsors/github1.png" alt="github"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://codingblocks.com/"><img src="./img/sponsors/cb.png" alt="coding blocks"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.sketch.com/"><img src="./img/sponsors/sketch1.png" alt="sketch"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://balsamiq.com/"><img src="./img/sponsors/balsamiq.png" alt="balsamiq"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.bugsee.com/"><img src="./img/sponsors/bugsee1.png" alt="bugsee"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.interviewcake.com/"><img src="./img/sponsors/interviewcake1.png" alt="interviewcake"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.taskade.com/"><img src="./img/sponsors/taskade.png" alt="taskade"></a>
+            </div>
+
+
+
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.voiceflow.com/"><img src="./img/sponsors/voiceflow.png" alt="voiceflow"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.wolframalpha.com/"><img src="./img/sponsors/wolfram.png" alt="wolfram"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.gobilda.com/"><img src="./img/sponsors/gobilda.png" alt="gobilda"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.sashido.io/en/"><img src="./img/sponsors/sashido.png" alt="sashido"></a>
+            </div>
+
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://www.clerky.com/"><img src="./img/sponsors/clerky.png" alt="clerky"></a>
+            </div>
+
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="https://uaceit.com/"><img src="./img/sponsors/uaceit.png" alt="uaceit"></a>
+            </div>
+
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href=""><img src="" alt=""></a>
+            </div>
+
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href=""><img src="" alt=""></a>
+            </div>
+
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href=""><img src="" alt=""></a>
+            </div>
+
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href=""><img src="" alt=""></a>
+            </div>
+            
+           
+          </div>
+        </div>
+      </div>
+
+     
+
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+            <h4 class="partner" style="color:#df42b1;">Media Partners</h4><br><br>
+            <a href="https://www.noticeboard.tech/"><img src="./img/sponsors/noticeboard.png" alt="notice board" style="width: 30%;height: 100px;"></a>
+            <a href="https://www.framer.com/"><img src="./img/sponsors/framer.png" alt="framer" style="width: 30%;height: 100px;"></a>
+            <a href="https://www.cryptopolitan.com/"><img src="./img/sponsors/cryptopoliton.png" alt="cryptopoliton" style="width: 30%;height: 100px;"></a>
+          </div>
+        </div>
+      </div>
+
+
+
+      
+    <div class="col-12">
+      <div class="more-schedule-btn text-center mt-50 wow fadeInUp" data-wow-delay="300ms">
+        <a style="margin:0 !important" download="Sponsorship Brochure.pdf" href="Sponsorship Brochure.pdf"
+          class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">SPONSOR US</a>
+      </div>
+
+      <div class="more-schedule-btn text-center mt-50 wow fadeInUp" data-wow-delay="300ms">
+        <a style="margin:0 !important" href="https://www.ietevit.com/accessdenied2019/#sponsors"
+          class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Previous Sponsors</a>
       </div>
     </div>
   </section>
@@ -1806,7 +2126,7 @@ Please email iete@vit.ac.in if you have any questions! We'd love to hear from yo
       <h4>Code of Conduct</h4>
     </div>
     <div class="text-center">
-      <button type="button" id="modalBtnClick" data-toggle="modal" data-target="#myModal" class="btn confer-btn"  style="color: white; text-align:center; cursor:pointer; font-size: 20px;" >Click to View </button>
+      <button type="button" id="modalBtnClick" data-toggle="modal" data-target="#myModal" class="btn confer-btn"  style="color: white; text-align:center; cursor:pointer; font-size: 16px;" >Click to View </button>
     </div>
   
     
@@ -1931,7 +2251,7 @@ Please email iete@vit.ac.in if you have any questions! We'd love to hear from yo
           <!-- Contact Form -->
           <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">
             <div class="contact_form">
-              <form method="POST" id="main_contact_form">
+              <form method="POST" id="main_contact_form" action="mailto:iete@vit.ac.in">
                 <div class="contact_input_area">
                   <div id="success_fail_info"></div>
                   <div class="row">
@@ -1967,7 +2287,8 @@ Please email iete@vit.ac.in if you have any questions! We'd love to hear from yo
                     </div>
                     <!-- Button -->
                     <div class="col-12">
-                      <button type="submit" class="btn confer-btn">Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
+                      
+                      <input type="submit" class="btn confer-btn" value="Send Message" style="background-color: #df42b1">
                     </div>
                   </div>
                 </div>
@@ -2199,18 +2520,7 @@ Please email iete@vit.ac.in if you have any questions! We'd love to hear from yo
 
         });
 </script>
-<script>
-  let previous_sponsors = $("#previous_sponsors")
-   $("#previous_sponsors").hide()
-  function sponsorShow(){
-    if($("#previous_sponsors").is(':visible')){
-      $("#previous_sponsors").hide()
-    }else{
-      $("#previous_sponsors").show()
-    }
-    
-  }
-</script>
+
  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
   
@@ -2220,8 +2530,19 @@ Please email iete@vit.ac.in if you have any questions! We'd love to hear from yo
   document.getElementById("popup-1").classList.toggle("active");
 }
   </script>
-
-  <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+<script>
+  /*let previous_sponsors = $("#previous_sponsors")
+   $("#previous_sponsors").hide()
+  function sponsorShow(){
+    if($("#previous_sponsors").is(':visible')){
+      $("#previous_sponsors").hide()
+    }else{
+      $("#previous_sponsors").show()
+    }
+    
+  }*/
+</script>
+  
   <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function () {
     let devfolioOptions = {
@@ -2244,6 +2565,18 @@ Please email iete@vit.ac.in if you have any questions! We'd love to hear from yo
     }
 });
   </script>
+
+  <script>
+    function get() {
+  const logo = document.querySelectorAll("#logo path");
+  console.log(logo);
+  for(let i=0;i<logo.length;i++){
+      console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
+  }
+}
+
+  </script>
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 </body>
 
 </html>
